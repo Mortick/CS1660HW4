@@ -49,7 +49,7 @@ public class Least5 {
       
             for (LongWritable val : values) 
             { 
-                count = val.get(); 
+                count += val.get(); 
             } 
       
             tmap2.put(count, name); 
